@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar-logo{
+   height: 60px;
+   width: 128px;
+}
+.logo{
+    height: 60px;
+    width: 100%;
+    background-image: url(images/amazon_logo.png);
+   background-size: cover;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.firstline{
+    color: #d3d3d3;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.location-icon{
+    display: flex;
+    align-items: center;
+}
+.secondline{
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 3px;
+}
+.nav-search{
+    width: 590px;
+    height: 40px;
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-select{
+    height: 40px;
+    width: 52px;
+    text-align: center;
+    border: none;
+    background-color: #f3f3f3;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.nav-search input{
+    height: 40px;
+    width: 490px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 7px;
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 45px;
+    font-size: 1.3rem;
+    color: black;
+    background-color:#febd68 ;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.language{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.flag{
+    height: 16px;
+    width: 23px;
+}
+.language p{
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-left: 2px;
+    gap: 4px;
+}
+.down-arrow{
+    color: #d3d3d3;
+    font-size: 0.75rem;
+}
+span{
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-left: 0.2rem;
+}
+.shopping-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+    font-size: 2rem;
+}
+.shopping-cart p{
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
