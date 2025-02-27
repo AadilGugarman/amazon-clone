@@ -7,7 +7,7 @@
 
 .navbar{
     height: 60px;
-    background-color: #232f3e;
+    background-color: #222f3d;
     color: white;
     display: flex;
     align-items: center;
@@ -24,10 +24,15 @@
     background-image: url(images/amazon_logo.png);
    background-size: cover;
 }
-
+.border{
+    border: 1px solid transparent;
+}
 .border:hover{
     border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
 }
+
 
 .firstline{
     color: #d3d3d3;
@@ -118,3 +123,40 @@ span{
     font-weight: 600;
     margin-top: 0.5rem;
 }
+.second-navbar{
+    height: 39px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.hamburger-option{
+    display: flex;
+    align-items: center;
+    margin-left: 1.75rem;
+    height: 2.2rem;
+}
+.hamburger {
+    font-size: 1.2rem;
+}
+.hamburger-option span{
+    font-size:0.95rem ;
+    font-weight: 600;
+}
+.options{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 2.5rem;
+}
+.options span{
+    display: flex;
+    align-items: center;
+    font-size: 0.90rem;
+    font-weight: 500;
+    height: 2.2rem;
+    padding:0  4px;
+    text-decoration: none;
+}
+
