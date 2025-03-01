@@ -4,14 +4,26 @@
     font-family: Arial;
     box-sizing: border-box;
 }
-
+@media(max-width:768px){
+    .main-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-search{
+        width: 80%;
+    }
+}
 .navbar{
     height: 60px;
+    width: 100%;
     background-color: #222f3d;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .navbar-logo{
@@ -50,7 +62,8 @@
     margin-left: 3px;
 }
 .nav-search{
-    width: 590px;
+    width: 100%;
+    max-width: 590px;
     height: 40px;
     border-radius: 0.75rem;
     display: flex;
@@ -115,6 +128,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 60px;
 }
 .cart{
     font-size: 2rem;
@@ -125,10 +139,14 @@ span{
 }
 .second-navbar{
     height: 39px;
+    width: 100%;
     background-color: #232f3e;
     display: flex;
     align-items: center;
     color: white;
+    position: absolute;
+    top: 60px;
+    
 }
 .hamburger-option{
     display: flex;
@@ -142,6 +160,18 @@ span{
 .hamburger-option span{
     font-size:0.95rem ;
     font-weight: 600;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    justify-content: center;
+}
+.signin , .returns{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    justify-content: center;
 }
 .options{
     display: flex;
@@ -168,6 +198,8 @@ span{
     padding: 1rem;
 }
 .wallpaper-img{
+    position: absolute;
+    top: 99px;
     max-width: 100%;
     max-height: 100%
 }
@@ -177,7 +209,8 @@ span{
     flex-direction: column;
     justify-content: space-between;
     height: 420px;
-    width:310px;
+    width: 100%;
+    max-width:310px;
     padding: 1.25rem 0 1rem;
 }
 .image-box{
@@ -193,12 +226,13 @@ span{
     width: 125px;
 }
 .box-text{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 0 1.25rem;
 }
 .name{
     color: #0f1111;
     font-size: 0.70rem;
+    opacity: 0.8;
 }
 .shopping-box a{
     color: #2162a1;
