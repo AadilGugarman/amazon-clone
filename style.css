@@ -312,6 +312,11 @@ span{
     padding: 1rem;
    
 }
+.star{
+    color: #ffd43b;
+    font-size: 0.65rem;
+}
+
 .scooter-heading{
     display: flex;
     justify-content: space-between;
@@ -320,6 +325,28 @@ span{
 .scooter{
   display: flex;
   justify-content: space-around;
+}
+
+.scooter-box{
+    height: 310px;
+    width: 150px;
+}
+.scooter-name{
+    font-size: 0.90rem;
+    color: #2162a1;
+}
+.first-para{
+    color: #565959;
+    font-size: 0.75rem;
+}
+.second-para{
+    color: #0f1111;
+}
+
+footer{
+    height: 790px;
+    width: 100%;
+    background-color: #232f3e;
 }
 .left-arrow ,.right-arrow{
     align-self: center;
@@ -343,6 +370,14 @@ span{
     gap: 0.5rem;
     margin-top: 2.5rem;
 }
+.signin p{
+    font-size: 0.75rem;
+}
+.signin p a{
+    color: #2162a1;
+    text-decoration: underline ;
+    margin-left: 0.2rem;
+}
 .signin button{
     height: 30px;
     width: 215px;
@@ -351,21 +386,6 @@ span{
     border: none;  
 }
 
-.scooter-box{
-    height: 310px;
-    width: 150px;
-}
-.scooter-box p{
-    font-size: 0.80rem;
-    color: #2162a1;
-}
-
-
-footer{
-    height: 790px;
-    width: 100%;
-    background-color: #232f3e;
-}
 .back{
     background-color: #131921;
     line-height: 20px;
@@ -383,17 +403,116 @@ footer{
 .footer-info li {
 line-height: 2rem;
 list-style-type:none ;
+color: #dddddd;
+font-size: 14px;
 }
+#list-heading{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0.5rem 0 1rem;
+}
+
 .lastline{
     margin-top: 3rem;
     width: 100%;
     border-top: 1px solid #3a4553;
 }
-.amazonlogo{
-    height: 30px;
-    width: 75px;
-object-fit: cover;
+.footer-icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:2rem ;
 }
+.amazonlogo{
+    height: 35px;
+    width: 80px;
+object-fit: cover;
+margin-right: 2rem;
+}
+.language-icon{
+    display: flex;
+    gap: 1rem;
+}
+.caret-icon i{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.3rem;
+    font-size: 0.55rem;
+}
+.english-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 115px;
+    height: 33px;
+    background-color: transparent;
+    color: #848588;
+    padding: 0.3rem;
+    gap: 0.4rem;
+    border: 1px solid #848588;
+    font-size: 14px;
+}
+.globe-icon{
+    font-size:1rem;
+    color: #848688;
+}
+.usflag, .indiaflag{
+    height: 17px;
+    width: 18px;
+}
+
+.india-button{
+    height: 33px;
+    width: 80px;
+    background-color: transparent;
+    color: #848588;
+    border: 1px solid #848588;
+    gap: 0.4rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    font-size: 14px;
+}
+
+.more-footer-info{
+    height: 290px;
+    width: 100%;
+    background-color: #131a22;
+    color: #fff;
+    padding: 2rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.first-list , .second-list {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    gap: 4rem;
+    margin-bottom: 1.5rem;
+    margin-left: 10rem;
+    text-align: left;
+    list-style-type: none;
+}
+.more-footer-info h5{
+    color: #dddddd;
+   margin-left: 0.2rem;
+    font-size: 0.75rem;
+}
+.second-list span ,.first-list span {
+         font-size: 0.75rem;
+         color: #999999;
+}
+
+
+
+
+
+
 
 
 @media(max-width:1300px){
