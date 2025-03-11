@@ -557,10 +557,8 @@ margin-right: 2rem;
 }
 @media(max-width:1000px){
     
-    .second-navbar{
-    min-width: fit-content;
-    }
-    .wallpaper , .scooter-section , footer{
+    
+    .wallpaper , .scooter-section , footer .second-navbar{
     min-width: 1350px;
     }
 
