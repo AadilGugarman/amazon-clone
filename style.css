@@ -558,7 +558,7 @@ margin-right: 2rem;
 @media(max-width:1000px){
     
     
-    .wallpaper , .scooter-section , footer .second-navbar{
+    .wallpaper , .scooter-section , footer ,.second-navbar{
     min-width: 1350px;
     }
 
