@@ -559,7 +559,7 @@ margin-right: 2rem;
     
 .navbar{
     min-width: 1350px;
-
+     justify-content: space-evenly;
 }
 
 
