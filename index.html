@@ -1,463 +1,563 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <link class="title-icon" rel="icon" href="images/amazon-title-logo.png">
-    <title>Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      class="title-icon"
+      rel="icon"
+      href="images/amazon-title-logo.png"
+      alt="Amazon logo"
+    />
+    <title>
+      Online Shopping site in India: Shop Online for Mobiles, Books, Watches,
+      Shoes and More - Amazon.in
+    </title>
+  </head>
+  <body>
     <header>
-        <div class="navbar">
-            <div class="navbar-logo " >
-                <div class="logo border"></div>
-            </div>
-            
-            <div class="nav-item border">
-                <span class="firstline">Delivering to Nadiad 387001</span>
-                <div class="location-icon">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p class="secondline">Update Location</p>
-                </div>
-            </div>
-        
-            <div class="nav-search">
-                <select class="search-select">
-                    <option>All</option>
-                </select>
-                <input type="text"  placeholder="Search Amazon">
-                <div class="search-icon"><i class="fa-solid fa-magnifying-glass "></i></div>
-            </div>
-
-            <div class="language">
-                <img src="images/indianflag.jpg" class="flag">
-                <p>EN</p>
-                <i class="fa-solid fa-caret-down down-arrow"></i>
-            </div>
-
-            <div class="nav-item border">
-                <span >Hello, sign in</span>
-                <p class="secondline">Account & Lists <i class="fa-solid fa-caret-down down-arrow"></i></p>
-                
-            </div>
-            <div class="nav-item border">
-                <span>Returns</span>
-                <p class="secondline">& Orders</p>
-            </div>
-
-            <div class="shopping-cart border">
-                <i class="fa-solid fa-cart-shopping cart"></i>
-                <p>Cart</p>
-            </div>
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <a href="/" class="logo border">
+            <img src="images/amazon_logo.png" alt="Amazon" class="logo-img" />
+          </a>
         </div>
+
+        <div class="nav-item border">
+          <span class="firstline">Delivering to Nadiad 387001</span>
+          <div class="location-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="secondline">Update Location</p>
+          </div>
+        </div>
+
+        <form class="nav-search">
+          <select class="search-select">
+            <option>All</option>
+          </select>
+          <input type="search" placeholder="Search Amazon" />
+          <button type="submit" class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+
+        <div class="language">
+          <img src="images/indianflag.jpg" class="flag" alt="Indian flag" />
+          <p>EN</p>
+          <i class="fa-solid fa-caret-down down-arrow"></i>
+        </div>
+
+        <div class="nav-item border">
+          <span>Hello, sign in</span>
+          <p class="secondline">
+            Account & Lists <i class="fa-solid fa-caret-down down-arrow"></i>
+          </p>
+        </div>
+        <div class="nav-item border">
+          <span>Returns</span>
+          <p class="secondline">& Orders</p>
+        </div>
+
+        <div class="shopping-cart border">
+          <i class="fa-solid fa-cart-shopping cart"></i>
+          <p>Cart</p>
+        </div>
+      </nav>
     </header>
 
-           <div class="second-navbar">
-            <div class="hamburger-option border">
-                <i class="fa-solid fa-bars hamburger"></i>
-                <span>All</span>
-            </div>
-             <div class="options">
-                <a class="border responsive">MX Player</a>
-                <a class="border">Sell</a>
-                <a class="border">Best Sellers</a>
-                <a class="border">Today's Deal</a>
-                <a class="border">Mobiles</a>
-                <a class="border">Prime</a>
-                <a class="border">Customer Service</a>
-                <a class="border">Electronics</a>
-                <a class="border">New Releases</a>
-                <a class="border">Amazon Pay</a>
-                <a class="border">Home & Kitchen</a>
-                <a class="border">Fashion</a>
-                <a class="border">Computers</a>
-                <a class="border">Books</a>
-             </div>
-           </div>
-           
-
-
-           
-        
-            <div class="wallpaper"></div>
-    <section id="main-container">
-            <div class="shopping-section">
-                
-            <div class="shopping-box">
-                <h2 class="box-text">Appliances for your home | Up to 55% off</h2>
-               <div class="image-box">
-                   <div class="image">
-                       <img src="images/appliances1.jpg" class="box-img" >
-                       <p class="name">Air conditioners</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/appliances2.jpg" class="box-img" >
-                       <p class="name">Refrigerators</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/appliances3.jpg" class="box-img" >
-                       <p class="name">Microwaves</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/appliances4.jpg" class="box-img" >
-                       <p class="name">Washing machines</p>
-                   </div>
-               </div>
-               <a href="#">See more</a>
-            </div>
-
-        
-            <div class="shopping-box">
-                <h2 class="box-text">Revamp your home in style</h2>
-               <div class="image-box">
-                   <div class="images">
-                       <img src="images/home1.jpg" class="box-img" >
-                       <p class="name">Cushion covers,<br> bedsheets & more</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/home2.jpg" class="box-img" >
-                       <p class="name">Figurines,vases & more</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/home3.jpg" class="box-img" >
-                       <p class="name">Home Storage</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/home4.jpg" class="box-img" >
-                       <p class="name">Lighting solutions</p>
-                   </div>
-               </div>
-               <a href="#">Explore All</a>
-            </div>
-            <div class="shopping-box">
-                <h2 class="box-text">Starting ₹149 | Headphones</h2>
-               <div class="image-box">
-                   <div class="images">
-                       <img src="images/headphone1.jpg" class="box-img" >
-                       <p class="name">Starting ₹249 | boAt</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/headphone2.jpg" class="box-img" >
-                       <p class="name">Starting ₹349 | boult</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/headphone3.jpg" class="box-img" >
-                       <p class="name">Starting ₹649 | Noise</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/headphone4.jpg" class="box-img" >
-                       <p class="name">Starting ₹149 |<br>Zebronics</p>
-                   </div>
-               </div>
-               <a href="#">See all offers</a>
-            </div>
-            <div class="shopping-box">
-                <h2 class="box-text">Automotive essentials | Up <br>to 60% off</h2>
-               <div class="image-box">
-                   <div class="images">
-                       <img src="images/automobile1.jpg" class="box-img" >
-                       <p class="name">Cleaning accessories</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/automobile2.jpg" class="box-img" >
-                       <p class="name">Tyre & rim care</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/automobile3.jpg" class="box-img" >
-                       <p class="name">Helmets</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/automobile4.jpg" class="box-img" >
-                       <p class="name">Vacuum cleaner</p>
-                   </div>
-               </div>
-               <a href="#">See more</a>
-            </div>
-
-            <div class="shopping-box">
-                <h2 class="box-text">Starting ₹199 | Amazon <br> Brands & more</h2>
-               <div class="image-box">
-                   <div class="image">
-                       <img src="images/brands1.jpg" class="box-img" >
-                       <p class="name">Starting ₹199 |<br> Bedsheets</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/brands2.jpg" class="box-img" >
-                       <p class="name">Starting ₹199 | <br>Curtains</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/brands3.jpg" class="box-img" >
-                       <p class="name">Minimum 40% off |<br>Ironing board & more</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/brands4.jpg" class="box-img" >
-                       <p class="name">Up to 60% off | Home <br> decor</p>
-                   </div>
-               </div>
-               <a href="#">See more</a>
-            </div>
-
-            <div class="shopping-box">
-                <h2 class="box-text">Explore more from Small Businesses</h2>
-               <div class="image-box">
-                   <div class="image">
-                       <img src="images/small1.jpg" class="box-img" >
-                       <p class="name">Ethnic, dresses & more
-                        </p>
-                   </div>
-                   <div class="image">
-                       <img src="images/small.jpg" class="box-img" >
-                       <p class="name">Décor</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/small4.jpg" class="box-img" >
-                       <p class="name">Fashion accessories</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/small4.jpg" class="box-img" >
-                       <p class="name">Glassware & drinkware</p>
-                   </div>
-               </div>
-               <a href="#">Explore all</a>
-            </div>
-            <div class="shopping-box">
-                <h2 class="box-text">Up to 60% off | Styles for women</h2>
-               <div class="image-box">
-                   <div class="image">
-                       <img src="images/women1.jpg" class="box-img" >
-                       <p class="name">Women's clothing</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/women2.jpg" class="box-img" >
-                       <p class="name">Footwear + Handbags</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/women3.jpg" class="box-img" >
-                       <p class="name">Watches</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/women4.jpg" class="box-img" >
-                       <p class="name">Fashion Jewellery</p>
-                   </div>
-               </div>
-               <a href="#">End of season sale</a>
-            </div>
-            <div class="shopping-box">
-                <h2 class="box-text">Min. 40% off | Fun toys & <br> games | Amazon brands</h2>
-               <div class="image-box">
-                   <div class="image">
-                       <img src="images/toys1.jpg" class="box-img" >
-                       <p class="name">Min. 40% off | soft toys</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/toys2.jpg" class="box-img" >
-                       <p class="name">
-                        Min. 40% off | Ride ons</p>
-                   </div>
-                   <div class="image">
-                       <img src="images/toys3.jpg" class="box-img" >
-                       <p class="name">Min. 40% off | Indoor <br> games
-                        </p>
-                   </div>
-                   <div class="image">
-                       <img src="images/toys4.jpg" class="box-img" >
-                       <p class="name">Min. 40% off | Indoor <br> games
-                        </p>
-                   </div>
-               </div>
-               <a href="#">See all offers</a>
-            </div>
-            
-            
-            
-            
-    <div class="bike-section">
-        <div class="bike-info">
-            <h2>
-                Petrol & electric vehicles from stores near you
-            </h2>
-            <a>See all offers</a>     
-        </div>
-        <div class="bikes">
-            <img class="bikeimg" src="images/bike1.jpg">
-            <img class="bikeimg" src="images/bike2.jpg">
-            <img class="bikeimg" src="images/bike3.jpg">
-            <img class="bikeimg" src="images/bike4.jpg">
-        </div>
+    <div class="second-navbar">
+      <div class="hamburger-option border">
+        <i class="fa-solid fa-bars hamburger"></i>
+        <span>All</span>
+      </div>
+      <div class="options">
+        <a class="border responsive">MX Player</a>
+        <a class="border">Sell</a>
+        <a class="border">Best Sellers</a>
+        <a class="border">Today's Deal</a>
+        <a class="border">Mobiles</a>
+        <a class="border">Prime</a>
+        <a class="border">Customer Service</a>
+        <a class="border">Electronics</a>
+        <a class="border">New Releases</a>
+        <a class="border">Amazon Pay</a>
+        <a class="border">Home & Kitchen</a>
+        <a class="border">Fashion</a>
+        <a class="border">Computers</a>
+        <a class="border">Books</a>
+      </div>
     </div>
-                
-            </div>
-     <div class="scooter-section">
-                    <div class="scooter-heading">
-                        <h2>Customers who viewed items in your browsing history also viewed</h2>
-                        <p>Page 1 of 3</p>
-                    </div>
-                        <div class="scooter">
-                            
-                            <i class="fa-regular fa-square-caret-left left-arrow"></i>
-                        <div class="scooter-box">
-                        <img class="scooterimg" src="images/scooter1.jpg" >
-                        <p class="scooter-name">Hero Destini Prime Scooter Drs Cast Noble Red Booking for Ex-Showroom Price</p>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star-half-stroke star" ></i>
-                        <span>52</span>
-                        <p class="first-para">369 offers from</p>
-                        <p class="second-para">₹61,689.00</p>
-                    </div>
-                        <div class="scooter-box"><img class="scooterimg" src="images/scooter2.jpg" >
-                        <p class="scooter-name">Hero Destini Prime Scooter Drs Cast Noble Red Booking for Ex-Showroom Price</p>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star-half-stroke star" ></i>
-                        <span>34</span>
-                        <p class="first-para">337 offers from </p>
-                        <p class="second-para">₹76,000.00</p>
-                    </div>
-                        <div class="scooter-box"><img class="scooterimg" src="images/scooter3.jpg" >
-                        <p class="scooter-name">Hero Destini Prime Scooter Drs Cast Noble Red Booking for Ex-Showroom Price</p>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star-half-stroke star" ></i>
-                        <span>1</span>
-                        <p class="first-para">349 offers from</p>
-                        <p class="second-para">₹69,000.00</p>
-                    </div>
-                        <div class="scooter-box"><img class="scooterimg" src="images/scooter4.jpg" >
-                        <p class="scooter-name">Hero Destini Prime Scooter Drs Cast Noble Red Booking for Ex-Showroom Price</p>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star-half-stroke star"></i>
-                        <span>12</span>
-                        <p class="first-para">344 offers from </p>
-                        <p class="second-para">₹69,000.00</p>
-                    </div>
-                        <div class="scooter-box"><img class="scooterimg" src="images/scooter5.jpg" >
-                        <p class="scooter-name">Hero Destini Prime Scooter Drs Cast Noble Red Booking for Ex-Showroom Price</p>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star-half-stroke star" ></i>
-                        <span>4</span>
-                        <p class="first-para">₹86,604.00 </p>
-                        <p class="second-para" >Get it <span>Mar 24 -25</span></p>
-                    </div>
-                        <div class="scooter-box"><img class="scooterimg" src="images/scooter6.jpg" >
-                        <p class="scooter-name">Hero Destini Prime Scooter Drs Cast Noble Red Booking for Ex-Showroom Price</p>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star star" ></i>
-                        <i class="fa-solid fa-star-half-stroke star" ></i>
-                        <span>160</span>
-                        <p class="first-para">In 90+ Carts <br>214 offers from</p>
-                        <p class="second-para">₹95,948.00</p>
-                    </div>
-                    
-                    <i class="fa-regular fa-square-caret-right right-arrow"></i>
-                        
-                    </div>
-                    
-                    <div class="line"></div>
-                    <div class="signin">
-                        <h2>See personalized recommendations</h2>
-                        <button>Sign in</button>
-                       <p><span>New customer?</span><a>Start here</a></p>
-                    
-                    </div>    
-                </div>
-                <footer>
-                    <div class="back"><p>Back to top</p></div>
-                    <div class="footer-info">
-                        <ul>
-                            <li><p id="list-heading">Get to know us </p></li>
-                            <li><a>About Amazon</a></li>
-                            <li><a>Careers</a></li>
-                            <li><a>Press Releases</a></li>
-                            <li><a>Amazon Science</a></li>
-                        </ul>
-                        <ul>
-                            <li><p id="list-heading" >Connect with Us</p></li>
-                            <li><a>Facebook</a></li>
-                            <li><a>Twitter</a></li>
-                            <li><a>Instagram</a></li>
-                        
-                        </ul>
-                        <ul>
-                            <li><p id="list-heading">Make Money with Us</p></li>
-                            <li><a>Sell on Amazon</a></li>
-                            <li><a>Sell under Amazon Accelerator</a></li>
-                            <li><a>Protect and Build Your Brand</a></li>
-                            <li><a>Amazon Global Selling</a></li>
-                            <li><a>Supply to Amazon</a></li>
-                            <li><a>Become an Affiliate</a></li>
-                            <li><a>Fulfilment by Amazon</a></li>
-                            <li><a>Advertise Your Products</a></li>
-                            <li><a>Amazon Pay on Merchants</a></li>
-                        </ul>
-                        <ul>
-                            <li><p id="list-heading">Let Us Help You</p></li>
-                            <li><a>Your Account</a></li>
-                            <li><a>Returns Centre</a></li>
-                            <li><a>Recalls and Product Safety Alerts</a></li>
-                            <li><a>100% Purchase Protection</a></li>
-                            <li><a>Amazon App Download</a></li>
-                            <li><a>Help</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="lastline"></div>
-                    <div class="footer-icons">
-                        <img class="amazonlogo" src="images/amazon_logo.png" alt="amazon">
-                        <div class="language-icon">
-                            <button class="english-button"><i class="fa-solid fa-globe globe-icon"></i><img class="usflag" src="images/16036_flag_united states_united states of america_us_usa_icon.png" alt="unitedstates">
-                                English
-                                <div class="caret-icon"><i class="fa-solid fa-caret-up"></i><i class="fa-solid fa-caret-down"></i></div>
-                    </button>
-                       <button class="india-button"><img class="indiaflag" src="images/92130_india_icon.png" alt="india">India</button>
-                        </div>
-                    </div>
-                    <div class="more-footer-info">
-                        <ul class="first-list">
-                            <li><a><h5>AbeBooks</h5><span>Books art <br>& collectibles</span></a></li>
-                            <li><a><h5>Amazon web services</h5><span>Scalable Cloud <br>Computing Services</span></a></li>
-                            <li><a><h5>Audible</h5><span>Download <br>Audio Books</span></a></li>
-                            <li><a><h5>IMDB</h5><span>Movies, TV <br>& celebrities</span></a></li>
-                            
-                        </ul>
-                        
-                        <ul class="second-list">
-                            <li><a><h5>Shopbop</h5><span>Designer<br>Fashion Brands</span></a></li>
-                            <li><a><h5>Amazon Buisness</h5><span>Everything For<br>Your Buisness</span></a></li>
-                            <li><a><h5>Prime Now</h5><span> 2-Hour Delivery<br>on Everyday Items</span></a></li>
-                            <li><a><h5>Amazon Prime Music</h5><span>100 million songs, ad-free<br>Over 15 million podcast episodes </span></a></li>
-                        </ul>
-                    </div>
-                    <div class="copyright">
-                        <ul>
-                            <li><a>Conditions of Use & Sale</a></li>
-                            <li><a>Privacy Notice</a></li>
-                            <li><a>Interest-Based Ads</a></li>
-                        </ul>
-                        <span>© 1996-2025, Amazon.com, Inc. or its affiliates</span>
-                    </div>
-                     
-                </footer>
 
-        </section>
- 
-            
-        
-</body>
+    <div class="wallpaper"></div>
+    <section id="main-container">
+      <div class="shopping-section">
+        <div class="shopping-box">
+          <h2 class="box-text">Appliances for your home | Up to 55% off</h2>
+          <div class="image-box">
+            <div class="image">
+              <img src="images/appliances1.jpg" class="box-img" />
+              <p class="name">Air conditioners</p>
+            </div>
+            <div class="image">
+              <img src="images/appliances2.jpg" class="box-img" />
+              <p class="name">Refrigerators</p>
+            </div>
+            <div class="image">
+              <img src="images/appliances3.jpg" class="box-img" />
+              <p class="name">Microwaves</p>
+            </div>
+            <div class="image">
+              <img src="images/appliances4.jpg" class="box-img" />
+              <p class="name">Washing machines</p>
+            </div>
+          </div>
+          <a href="#">See more</a>
+        </div>
+
+        <div class="shopping-box">
+          <h2 class="box-text">Revamp your home in style</h2>
+          <div class="image-box">
+            <div class="images">
+              <img src="images/home1.jpg" class="box-img" />
+              <p class="name">
+                Cushion covers,<br />
+                bedsheets & more
+              </p>
+            </div>
+            <div class="image">
+              <img src="images/home2.jpg" class="box-img" />
+              <p class="name">Figurines,vases & more</p>
+            </div>
+            <div class="image">
+              <img src="images/home3.jpg" class="box-img" />
+              <p class="name">Home Storage</p>
+            </div>
+            <div class="image">
+              <img src="images/home4.jpg" class="box-img" />
+              <p class="name">Lighting solutions</p>
+            </div>
+          </div>
+          <a href="#">Explore All</a>
+        </div>
+        <div class="shopping-box">
+          <h2 class="box-text">Starting ₹149 | Headphones</h2>
+          <div class="image-box">
+            <div class="images">
+              <img src="images/headphone1.jpg" class="box-img" />
+              <p class="name">Starting ₹249 | boAt</p>
+            </div>
+            <div class="image">
+              <img src="images/headphone2.jpg" class="box-img" />
+              <p class="name">Starting ₹349 | boult</p>
+            </div>
+            <div class="image">
+              <img src="images/headphone3.jpg" class="box-img" />
+              <p class="name">Starting ₹649 | Noise</p>
+            </div>
+            <div class="image">
+              <img src="images/headphone4.jpg" class="box-img" />
+              <p class="name">Starting ₹149 |<br />Zebronics</p>
+            </div>
+          </div>
+          <a href="#">See all offers</a>
+        </div>
+        <div class="shopping-box">
+          <h2 class="box-text">Automotive essentials | Up <br />to 60% off</h2>
+          <div class="image-box">
+            <div class="images">
+              <img src="images/automobile1.jpg" class="box-img" />
+              <p class="name">Cleaning accessories</p>
+            </div>
+            <div class="image">
+              <img src="images/automobile2.jpg" class="box-img" />
+              <p class="name">Tyre & rim care</p>
+            </div>
+            <div class="image">
+              <img src="images/automobile3.jpg" class="box-img" />
+              <p class="name">Helmets</p>
+            </div>
+            <div class="image">
+              <img src="images/automobile4.jpg" class="box-img" />
+              <p class="name">Vacuum cleaner</p>
+            </div>
+          </div>
+          <a href="#">See more</a>
+        </div>
+
+        <div class="shopping-box">
+          <h2 class="box-text">
+            Starting ₹199 | Amazon <br />
+            Brands & more
+          </h2>
+          <div class="image-box">
+            <div class="image">
+              <img src="images/brands1.jpg" class="box-img" />
+              <p class="name">
+                Starting ₹199 |<br />
+                Bedsheets
+              </p>
+            </div>
+            <div class="image">
+              <img src="images/brands2.jpg" class="box-img" />
+              <p class="name">Starting ₹199 | <br />Curtains</p>
+            </div>
+            <div class="image">
+              <img src="images/brands3.jpg" class="box-img" />
+              <p class="name">Minimum 40% off |<br />Ironing board & more</p>
+            </div>
+            <div class="image">
+              <img src="images/brands4.jpg" class="box-img" />
+              <p class="name">
+                Up to 60% off | Home <br />
+                decor
+              </p>
+            </div>
+          </div>
+          <a href="#">See more</a>
+        </div>
+
+        <div class="shopping-box">
+          <h2 class="box-text">Explore more from Small Businesses</h2>
+          <div class="image-box">
+            <div class="image">
+              <img src="images/small1.jpg" class="box-img" />
+              <p class="name">Ethnic, dresses & more</p>
+            </div>
+            <div class="image">
+              <img src="images/small.jpg" class="box-img" />
+              <p class="name">Décor</p>
+            </div>
+            <div class="image">
+              <img src="images/small4.jpg" class="box-img" />
+              <p class="name">Fashion accessories</p>
+            </div>
+            <div class="image">
+              <img src="images/small4.jpg" class="box-img" />
+              <p class="name">Glassware & drinkware</p>
+            </div>
+          </div>
+          <a href="#">Explore all</a>
+        </div>
+        <div class="shopping-box">
+          <h2 class="box-text">Up to 60% off | Styles for women</h2>
+          <div class="image-box">
+            <div class="image">
+              <img src="images/women1.jpg" class="box-img" />
+              <p class="name">Women's clothing</p>
+            </div>
+            <div class="image">
+              <img src="images/women2.jpg" class="box-img" />
+              <p class="name">Footwear + Handbags</p>
+            </div>
+            <div class="image">
+              <img src="images/women3.jpg" class="box-img" />
+              <p class="name">Watches</p>
+            </div>
+            <div class="image">
+              <img src="images/women4.jpg" class="box-img" />
+              <p class="name">Fashion Jewellery</p>
+            </div>
+          </div>
+          <a href="#">End of season sale</a>
+        </div>
+        <div class="shopping-box">
+          <h2 class="box-text">
+            Min. 40% off | Fun toys & <br />
+            games | Amazon brands
+          </h2>
+          <div class="image-box">
+            <div class="image">
+              <img src="images/toys1.jpg" class="box-img" />
+              <p class="name">Min. 40% off | soft toys</p>
+            </div>
+            <div class="image">
+              <img src="images/toys2.jpg" class="box-img" />
+              <p class="name">Min. 40% off | Ride ons</p>
+            </div>
+            <div class="image">
+              <img src="images/toys3.jpg" class="box-img" />
+              <p class="name">
+                Min. 40% off | Indoor <br />
+                games
+              </p>
+            </div>
+            <div class="image">
+              <img src="images/toys4.jpg" class="box-img" />
+              <p class="name">
+                Min. 40% off | Indoor <br />
+                games
+              </p>
+            </div>
+          </div>
+          <a href="#">See all offers</a>
+        </div>
+
+        <div class="bike-section">
+          <div class="bike-info">
+            <h2>Petrol & electric vehicles from stores near you</h2>
+            <a>See all offers</a>
+          </div>
+          <div class="bikes">
+            <img class="bikeimg" src="images/bike1.jpg" />
+            <img class="bikeimg" src="images/bike2.jpg" />
+            <img class="bikeimg" src="images/bike3.jpg" />
+            <img class="bikeimg" src="images/bike4.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="scooter-section">
+        <div class="scooter-heading">
+          <h2>
+            Customers who viewed items in your browsing history also viewed
+          </h2>
+          <p>Page 1 of 3</p>
+        </div>
+        <div class="scooter">
+          <i class="fa-regular fa-square-caret-left left-arrow"></i>
+          <div class="scooter-box">
+            <img class="scooterimg" src="images/scooter1.jpg" />
+            <p class="scooter-name">
+              Hero Destini Prime Scooter Drs Cast Noble Red Booking for
+              Ex-Showroom Price
+            </p>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star-half-stroke star"></i>
+            <span>52</span>
+            <p class="first-para">369 offers from</p>
+            <p class="second-para">₹61,689.00</p>
+          </div>
+          <div class="scooter-box">
+            <img class="scooterimg" src="images/scooter2.jpg" />
+            <p class="scooter-name">
+              Hero Destini Prime Scooter Drs Cast Noble Red Booking for
+              Ex-Showroom Price
+            </p>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star-half-stroke star"></i>
+            <span>34</span>
+            <p class="first-para">337 offers from</p>
+            <p class="second-para">₹76,000.00</p>
+          </div>
+          <div class="scooter-box">
+            <img class="scooterimg" src="images/scooter3.jpg" />
+            <p class="scooter-name">
+              Hero Destini Prime Scooter Drs Cast Noble Red Booking for
+              Ex-Showroom Price
+            </p>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star-half-stroke star"></i>
+            <span>1</span>
+            <p class="first-para">349 offers from</p>
+            <p class="second-para">₹69,000.00</p>
+          </div>
+          <div class="scooter-box">
+            <img class="scooterimg" src="images/scooter4.jpg" />
+            <p class="scooter-name">
+              Hero Destini Prime Scooter Drs Cast Noble Red Booking for
+              Ex-Showroom Price
+            </p>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star-half-stroke star"></i>
+            <span>12</span>
+            <p class="first-para">344 offers from</p>
+            <p class="second-para">₹69,000.00</p>
+          </div>
+          <div class="scooter-box">
+            <img class="scooterimg" src="images/scooter5.jpg" />
+            <p class="scooter-name">
+              Hero Destini Prime Scooter Drs Cast Noble Red Booking for
+              Ex-Showroom Price
+            </p>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star-half-stroke star"></i>
+            <span>4</span>
+            <p class="first-para">₹86,604.00</p>
+            <p class="second-para">Get it <span>Mar 24 -25</span></p>
+          </div>
+          <div class="scooter-box">
+            <img class="scooterimg" src="images/scooter6.jpg" />
+            <p class="scooter-name">
+              Hero Destini Prime Scooter Drs Cast Noble Red Booking for
+              Ex-Showroom Price
+            </p>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star-half-stroke star"></i>
+            <span>160</span>
+            <p class="first-para">In 90+ Carts <br />214 offers from</p>
+            <p class="second-para">₹95,948.00</p>
+          </div>
+
+          <i class="fa-regular fa-square-caret-right right-arrow"></i>
+        </div>
+
+        <div class="line"></div>
+        <div class="signin">
+          <h2>See personalized recommendations</h2>
+          <button>Sign in</button>
+          <p><span>New customer?</span><a>Start here</a></p>
+        </div>
+      </div>
+      <footer>
+        <div class="back">
+          <a href="#top">Back to top</a>
+        </div>
+        <div class="footer-info">
+          <ul>
+            <li><p id="list-heading">Get to know us</p></li>
+            <li><a href="#">About Amazon</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">Amazon Science</a></li>
+          </ul>
+          <ul>
+            <li><p id="list-heading">Connect with Us</p></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+          <ul>
+            <li><p id="list-heading">Make Money with Us</p></li>
+            <li><a href="#">Sell on Amazon</a></li>
+            <li><a href="#">Sell under Amazon Accelerator</a></li>
+            <li><a href="#">Protect and Build Your Brand</a></li>
+            <li><a href="#">Amazon Global Selling</a></li>
+            <li><a href="#">Supply to Amazon</a></li>
+            <li><a href="#">Become an Affiliate</a></li>
+            <li><a href="#">Fulfilment by Amazon</a></li>
+            <li><a href="#">Advertise Your Products</a></li>
+            <li><a href="#">Amazon Pay on Merchants</a></li>
+          </ul>
+          <ul>
+            <li><p id="list-heading">Let Us Help You</p></li>
+            <li><a href="#">Your Account</a></li>
+            <li><a href="#">Returns Centre</a></li>
+            <li><a href="#">Recalls and Product Safety Alerts</a></li>
+            <li><a href="#">100% Purchase Protection</a></li>
+            <li><a href="#">Amazon App Download</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+
+        <div class="lastline"></div>
+        <div class="footer-icons">
+          <img class="amazonlogo" src="images/amazon_logo.png" alt="Amazon" />
+          <div class="language-icon">
+            <button class="english-button">
+              <i class="fa-solid fa-globe globe-icon"></i>
+              <img
+                class="usflag"
+                src="images/16036_flag_united states_united states of america_us_usa_icon.png"
+                alt="United States flag"
+              />
+              English
+              <div class="caret-icon">
+                <i class="fa-solid fa-caret-up"></i>
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </button>
+            <button class="india-button">
+              <img
+                class="indiaflag"
+                src="images/92130_india_icon.png"
+                alt="India flag"
+              />
+              India
+            </button>
+          </div>
+        </div>
+        <div class="more-footer-info">
+          <ul class="first-list">
+            <li>
+              <a
+                ><h5>AbeBooks</h5>
+                <span>Books art <br />& collectibles</span></a
+              >
+            </li>
+            <li>
+              <a
+                ><h5>Amazon web services</h5>
+                <span>Scalable Cloud <br />Computing Services</span></a
+              >
+            </li>
+            <li>
+              <a
+                ><h5>Audible</h5>
+                <span>Download <br />Audio Books</span></a
+              >
+            </li>
+            <li>
+              <a
+                ><h5>IMDB</h5>
+                <span>Movies, TV <br />& celebrities</span></a
+              >
+            </li>
+          </ul>
+
+          <ul class="second-list">
+            <li>
+              <a
+                ><h5>Shopbop</h5>
+                <span>Designer<br />Fashion Brands</span></a
+              >
+            </li>
+            <li>
+              <a
+                ><h5>Amazon Buisness</h5>
+                <span>Everything For<br />Your Buisness</span></a
+              >
+            </li>
+            <li>
+              <a
+                ><h5>Prime Now</h5>
+                <span> 2-Hour Delivery<br />on Everyday Items</span></a
+              >
+            </li>
+            <li>
+              <a
+                ><h5>Amazon Prime Music</h5>
+                <span
+                  >100 million songs, ad-free<br />Over 15 million podcast
+                  episodes
+                </span></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="copyright">
+          <ul>
+            <li><a href="#">Conditions of Use & Sale</a></li>
+            <li><a href="#">Privacy Notice</a></li>
+            <li><a href="#">Interest-Based Ads</a></li>
+          </ul>
+          <span>© 1996-2025, Amazon.com, Inc. or its affiliates</span>
+        </div>
+      </footer>
+    </section>
+  </body>
 </html>
